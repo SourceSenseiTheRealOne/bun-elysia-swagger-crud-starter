@@ -1,1 +1,6 @@
-- docker run --name dev-postgres -p 5432:5432 -e POSTGRES_PASSWORD=12345678 -d postgres
+- docker run --name dev-postgres -p 5432:5432 -e POSTGRES_PASSWORD=12345678 -d postgres  - for db set up
+- bunx prisma migrate dev --name create-post-model 
+- bunx prisma db seed
+- bun install 
+- bun run dev 
+
