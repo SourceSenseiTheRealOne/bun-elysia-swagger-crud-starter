@@ -1,0 +1,21 @@
+{
+  "name": "bun-elysia-prisma",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "prisma": {
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.1.6",
+    "@prisma/client": "5.22.0",
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "prisma": "^5.22.0"
+  },
+  "module": "src/index.js"
+}
